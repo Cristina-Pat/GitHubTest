@@ -1,0 +1,5 @@
+price = int(input('Price of house: '))
+loanToValue = int(input('Loan to value: '))
+deposit = price - (price * (loanToValue / 100))
+print('For a Loan to value of', loanToValue, '% you need', deposit, 'for deposit')
+print()
